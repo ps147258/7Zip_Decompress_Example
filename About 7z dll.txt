@@ -1,0 +1,29 @@
+English:
+Use 7-Zip's dynamic-link library 7z.dll to read and decompress archives.
+7z.dll can be obtained from the 7-Zip executable software.
+If this program is compiled as 32-bit, please use the 32-bit "7z.dll"; 
+if compiled as 64-bit, please use the 64-bit "7z.dll".
+
+7-Zip Official: https://www.7-zip.org/
+7-Zip Download: https://www.7-zip.org/download.html
+
+7za.dll or 7zxa.dll from the SDK only handle the 7z format and cannot decompress other archive formats.
+
+When using 7-Zip's dynamic-link library, please adhere to 7-Zip's relevant usage guidelines.
+
+https://www.7-zip.org/faq.html
+https://www.7-zip.org/sdk.html
+
+中文：
+使用 7-Zip 的動態函數庫 7z.dll 讀取壓縮檔與解壓縮，
+7z.dll 由 7-Zip 可執行軟體中取得，
+若本程式以 32 位元編譯，請使用 32 位元的 "7z.dll"；以 64 位元編譯，請使用 64 位元的 "7z.dll"。
+
+7-Zip 官網：https://www.7-zip.org/
+7-Zip 下載：https://www.7-zip.org/download.html
+
+SDK 中的 7za.dll 或 7zxa.dll 只有針對 7z 格式做處理，無法解壓縮其他壓縮格式。
+使用 7-Zip 的動態函數庫請遵守 7-Zip 的相關使用規範。
+
+https://www.7-zip.org/faq.html
+https://www.7-zip.org/sdk.html
