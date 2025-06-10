@@ -13,11 +13,11 @@ Project JEDI GitHub: https://github.com/project-jedi
 
 
 ## File Existence Handling Options
-TJclCompressionFileOverwrite
-cfoSkip: Skips the current file, but will prompt again (triggers OnFileExist) if another existing file is encountered.
-cfoSkipAll: Skips all subsequent existing files without further prompting (does not trigger OnFileExist).
-cfoOverwrite: Overwrites the current file, but will prompt again (triggers OnFileExist) if another existing file is encountered.
-cfoOverwriteAll: Overwrites all subsequent existing files without further prompting (does not trigger OnFileExist).
+TJclCompressionFileOverwrite\
+cfoSkip: Skips the current file, but will prompt again (triggers OnFileExist) if another existing file is encountered.\
+cfoSkipAll: Skips all subsequent existing files without further prompting (does not trigger OnFileExist).\
+cfoOverwrite: Overwrites the current file, but will prompt again (triggers OnFileExist) if another existing file is encountered.\
+cfoOverwriteAll: Overwrites all subsequent existing files without further prompting (does not trigger OnFileExist).\
 cfoAbort: Aborts the operation, skipping all remaining files.
 
 TJclDecompressArchive.OnFileExist
@@ -55,12 +55,12 @@ Project JEDI GitHub: https://github.com/project-jedi
 
 
 ## 檔案已存在的處理方式說明：
-TJclCompressionFileOverwrite = (
-  cfoSkip,         // 跳過檔案，但下次仍詢問(引發 OnFileExist)
-  cfoSkipAll,      // 跳過所有檔案，之後不詢問(不引發 OnFileExist)
-  cfoOverwrite,    // 覆蓋檔案，但下次仍詢問(引發 OnFileExist)
-  cfoOverwriteAll, // 覆蓋所有檔案，之後不詢問(不引發 OnFileExist)
-  cfoAbort         // 中止，跳過所有檔案
+TJclCompressionFileOverwrite = (\
+  cfoSkip,         // 跳過檔案，但下次仍詢問(引發 OnFileExist)\
+  cfoSkipAll,      // 跳過所有檔案，之後不詢問(不引發 OnFileExist)\
+  cfoOverwrite,    // 覆蓋檔案，但下次仍詢問(引發 OnFileExist)\
+  cfoOverwriteAll, // 覆蓋所有檔案，之後不詢問(不引發 OnFileExist)\
+  cfoAbort         // 中止，跳過所有檔案\
 );
 
 TJclDecompressArchive.OnFileExist
