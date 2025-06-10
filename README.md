@@ -22,7 +22,7 @@ cfoAbort: Aborts the operation, skipping all remaining files.
 
 TJclDecompressArchive.OnFileExist
 TJclUpdateArchive.OnFileExist
-```ruby
+```delphi
 procedure OnFileExist(Sender: TObject; Index: Integer; const FileName: TFileName; 
   var OverwriteMode: TJclCompressionFileOverwrite);
 var
@@ -65,7 +65,7 @@ TJclCompressionFileOverwrite = (
 
 TJclDecompressArchive.OnFileExist
 TJclUpdateArchive.OnFileExist
-```ruby
+```delphi
 procedure OnFileExist(Sender: TObject; Index: Integer; const FileName: TFileName; 
   var OverwriteMode: TJclCompressionFileOverwrite);
 var
